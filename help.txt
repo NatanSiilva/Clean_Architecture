@@ -1,0 +1,18 @@
+Complexidade de negócio
+Domain
+    - Entity
+      -- customes.ts (regra de negócio)
+
+
+Complexidade acidental
+Infra
+    - Entity / Model
+      -- customes.ts (getters e setters de dados/persistência)
+
+
+npm i -D jest @types/jest ts-node --save-dev
+npm i -D @swc/jest @swc/cli @swc/core
+npx jest --init 
+npm install uuid @types/uuid  
+npm install sequelize reflect-metadata sequelize-typescript
+npm install sqlite3 @types/sqlite3
