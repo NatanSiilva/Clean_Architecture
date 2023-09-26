@@ -57,6 +57,8 @@ describe("Unit tests for notifications", () => {
         };
         notification.addError(error);
 
+        console.log(notification.getErrors());
+
         expect(notification.getErrors()).toEqual([error]);
     });
 });
